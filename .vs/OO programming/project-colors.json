@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "85cbc1de-cbac-4ea0-a4b1-945ff318eeb2": {
+      "ProjectGuid": "85cbc1de-cbac-4ea0-a4b1-945ff318eeb2",
+      "DisplayName": "OO programming",
+      "ColorIndex": 0
+    },
+    "6e9f73ee-816b-4987-a442-7805e059367f": {
+      "ProjectGuid": "6e9f73ee-816b-4987-a442-7805e059367f",
+      "DisplayName": "PayCalculatorTestProject",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
