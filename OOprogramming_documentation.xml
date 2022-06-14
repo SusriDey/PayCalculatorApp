@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OO programming</name>
+    </assembly>
+    <members>
+        <member name="M:OO_programming.PayCalculator.GetEmployee(System.Int32)">
+            <summary>
+            Get Employee at a particular index
+            </summary>
+            <param name="index">index of the employee from the employee list</param>
+            <returns></returns>
+        </member>
+        <member name="T:OO_programming.Employee">
+            <summary>
+            This is an Employee Class
+            </summary>
+        </member>
+        <member name="M:OO_programming.Employee.#ctor(System.Int32,System.String,System.String,System.Double)">
+            <summary>
+            Employee constructor
+            </summary>
+            <param name="id">Employee ID</param>
+            <param name="firstName">First Name</param>
+            <param name="lastName">Last Name</param>
+            <param name="rate">Employee Rate per hour</param>
+        </member>
+        <member name="M:OO_programming.Employee.ToString">
+            <summary>
+            Override ToString method
+            </summary>
+            <returns>Returns a string representation of the Employee object</returns>
+        </member>
+        <member name="M:OO_programming.Form1.#ctor">
+            <summary>
+            Form constructor gets invoked when the form is loaded, the Employee details are loaded by the form in this method 
+            </summary>
+        </member>
+        <member name="M:OO_programming.Form1.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+            This method gets called when the Generate Payslip button is clicked
+            </summary>
+            <param name="sender">Sender Object</param>
+            <param name="e">Event arguments</param>
+        </member>
+        <member name="M:OO_programming.Form1.button3_Click(System.Object,System.EventArgs)">
+            <summary>
+            This method gets called when the Save Payslip button is clicked
+            </summary>
+            <param name="sender">Sender Object</param>
+            <param name="e">Event arguments</param>
+        </member>
+        <member name="F:OO_programming.Form1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:OO_programming.Form1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:OO_programming.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:OO_programming.PaySlip">
+            <summary>
+            This is a payslip class
+            </summary>
+        </member>
+        <member name="M:OO_programming.PaySlip.#ctor(OO_programming.Employee,System.Double)">
+            <summary>
+            This is a constructor of the PaySlip class
+            </summary>
+            <param name="e">This is an employee object</param>
+            <param name="hours">This is the number of hours worked</param>
+        </member>
+        <member name="M:OO_programming.PaySlip.SaveToFile">
+            <summary>
+            Saves the current PaySlip in a file
+            </summary>
+            <returns>Returns the file path where the file is saved</returns>
+        </member>
+        <member name="T:OO_programming.Program">
+            <summary>
+             Basic class to start my program
+             
+            </summary>
+        </member>
+        <member name="M:OO_programming.Program.Main(System.String[])">
+            <summary>
+            Entery point for my application
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:OO_programming.Program.ReadFile">
+            <summary>
+            Read a file passed in by the user.
+            </summary>
+        </member>
+        <member name="M:OO_programming.Program.WriteToFile">
+            <summary>
+            Create a CSV file if it does not exists otherwise 
+            notify the user the file does not exists.
+            </summary>
+        </member>
+        <member name="T:OO_programming.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:OO_programming.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:OO_programming.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>
